@@ -30,10 +30,10 @@ def display_menu(attacker):
             'Barbarian', 'Noble', 'Cavalier', 'General', 'Valkyrie',
             'Assassin', 'Dragonmaster'
     ]:
-        print_menu = '\nWhat would you like to do?\n-1.Attack:\t\t\t0 Rage Required.\n-2.Apothecary\'s Satchel:\t10 Rage Required.\n-3.Pass:\t\t\t0 Rage Required.\n-4.Pain Pack:\t\t\t20 Rage Required.\n-5.Quit'
+        print_menu = '\nWhat would you like to do?\n-1.Attack:\t\t\t\t0 Rage Required.\n-2.Apothecary\'s Satchel:\t10 Rage Required.\n-3.Pass:\t\t\t\t0 Rage Required.\n-4.Pain Pack:\t\t\t20 Rage Required.\n-5.Quit'
         return print_menu
     else:
-        print_menu = 'What would you like to do?\n-1.Cast Spell:\t\t\t0 Magic Required.\n-2.Heal:\t\t\t10 Magic Required.\n-3.Pass:\t\t\t0 Magic Required.\n-4.Pain Pack:\t\t\t20 Magic Required.\n-5.Quit'
+        print_menu = 'What would you like to do?\n-1.Cast Spell:\t\t\t0 Magic Required.\n-2.Heal:\t\t\t\t10 Magic Required.\n-3.Pass:\t\t\t\t0 Magic Required.\n-4.Pain Pack:\t\t\t20 Magic Required.\n-5.Quit'
         return print_menu
 
 
@@ -313,7 +313,7 @@ def description():
 
 def player_select_1():
     cprint(
-        '\nWelcome to Fire Emblem: Armada! A turn-based fighting/strategy game!',
+        '\nWelcome to Valor! A turn-based fighting/strategy game!',
         'cyan',
         attrs=['bold'])
     cprint(
@@ -372,7 +372,7 @@ def player_select_1():
 
 def player_select_2():
     cprint(
-        '\nSelect your class, Player 1!',
+        '\nSelect your class, Player 2!',
         'yellow',
         attrs=['bold', 'underline'])
     cprint('''

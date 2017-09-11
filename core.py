@@ -116,32 +116,32 @@ class FarPlayer(Player):
     def magic(self, defender, choose_name, choose_name2):
         number = self.rage
         magic_dictionary = {
-            'Kaiju Blue Bath': -15,
+            'Kaiju Blue Bath': -10,
             'Fire Storm': 12,
-            'Wind-Waker': 15,
+            'Wind-Waker': 11,
             'Ground Pound': 11,
             'Water Cannon': 14,
-            'Undead Underground': 16,
-            'Vine Whip': 10,
-            'Sunshine\'s Rays': 20,
+            'Undead Underground': 10,
+            'Vine Whip': 9,
+            'Sunshine\'s Rays': 10,
             'Bad Luck Bang': 5,
-            'Good Fortune': 20,
-            'Gastly Grimoire': 17,
-            'Blessed Brigamine': 18
+            'Good Fortune': 17,
+            'Gastly Grimoire': 11,
+            'Blessed Brigamine': 10
         }
         critical_magic_dictionary = {
-            'Kaiju Blue Spa': -30,
-            'Bring About The Fire Rain': 30,
-            'Wasting Winds Of The Waker': 33,
-            'Shifting Pangea Peril': 29,
+            'Kaiju Blue Spa': -20,
+            'Bring About The Fire Rain': 15,
+            'Wasting Winds Of The Waker': 19,
+            'Shifting Pangea Peril': 21,
             'Hurricane Of TerrorTears': 32,
-            'Paralyzing AkaiEyes': 34,
-            'Poison Ivy Grave': 28,
-            'Scorching Sunburst': 48,
-            'Unlucky Eulogy': 14,
-            'Luck Of The Chinese New Year': 49,
-            'Murderous Matoia': 35,
-            'Holy Water Spring': 36
+            'Paralyzing AkaiEyes': 14,
+            'Poison Ivy Grave': 18,
+            'Scorching Sunburst': 21,
+            'Unlucky Eulogy': 4,
+            'Luck Of The Chinese New Year': 21,
+            'Murderous Matoia': 22,
+            'Holy Water Spring': 23
         }
 
         if number < random.randint(0, 100):
